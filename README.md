@@ -1,4 +1,4 @@
-![Pressurizer simplified image](Pressurizer_2020-Apr-20_04-35-40AM-000_CustomizedView6324198267_png.png)
+![Pressurizer simplified image](Pressurizer_2020-TMS.png)
 
 # g2core Pressurizer
 A prototype emergency ventilator project based on [g2core](https://github.com/synthetos/g2/tree/pressurizer)
