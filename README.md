@@ -11,7 +11,7 @@ See the blog posts [Designing an Intelligent IoT Ventilator From Home, Pt. 1](ht
 
 - [x] Build proof-of-concept (POC) firmaware and hardware solution and verify minimal functionality [video here](https://youtu.be/bmQI65D5-_8)
 - [X] Document theory of operation located in the **second blog post here**
-- [ ] Document Bill-of-materials (BOM) for POC with links for ordering
+- [X] [Document Bill-of-materials (BOM) for POC with links for ordering](Bill-of-Materials.md)
 - [ ] Document firmware build process
 - [ ] Document hardware build process
 - [ ] Build and test physical UI firmware
