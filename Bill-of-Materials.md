@@ -21,6 +21,7 @@ This is the parts list we used to build our proof of concept, and unless otherwi
 - *Optional* Some thin (roughly 1/8" or 3mm) foam or cloth to protect the BVM from the sharp edges
 - *Optional* Some tape or cloth to hold the bag in place and up from getting pinched in machinery
 - 1 x Limit switch - [Option 1](https://openbuildspartstore.com/xtension-limit-switch-kit/), [Option 2](https://openbuildspartstore.com/micro-limit-switch-kit/), [Option 3 -  requires finding a means of attaching it](https://openbuildspartstore.com/micro-limit-switch/)
+- **Tubing**
 
 ## Electrical
 
@@ -33,4 +34,8 @@ This is the parts list we used to build our proof of concept, and unless otherwi
   - Option 2: Arduino Due - [Arduino Store](https://store.arduino.cc/usa/due) - [SparkFun](https://www.sparkfun.com/products/11589)
     - Most of the stepper drivers will require 5V signals, so you'll need a voltage level shifter like [this one](https://www.adafruit.com/product/757) (more convenient) or [this one](https://www.adafruit.com/product/1787) (less convenient). In either case, you'll need basic soldering skillas and equipment in order to use them.
     - The Due can only handle power up to 12V before it starts to get uncomfortably hot. If you go with a 24V power supply you'll need to find some other means of safely powering the Due such as a separate power supply.
-  
+- Sensor **OPTIONS**
+
+## Testing
+
+- **Test Lungs**
