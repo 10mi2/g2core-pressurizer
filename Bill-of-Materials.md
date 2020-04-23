@@ -1,12 +1,12 @@
 # Ten Mile Square g2core Pressurizer Bill-of-Materials
 
-This is the parts list we used to build our proof of concept, and unless otherwise noted the parts can be replaced by similar:
+This is the parts list we used to build our proof of concept, and unless otherwise noted the parts can be replaced by similar. Please note that we are listing what worked for us, and should be sufficient to get you started.
 
 ## Mechanical
 
 - [OpenBuilds C-Beam® Linear Actuator Bundle](https://openbuildspartstore.com/c-beam-linear-actuator-bundle/) - 250mm version
   - [Add the High-Torque NEMA-23 Motor](https://openbuildspartstore.com/nema-23-stepper-motor-high-torque-series/) - the normal NEMA-23 _might_ work but our testing shows that we're near the torque limit of this motor
-- [OpenBuilds V-Slot® 20x80 Linear Rail](https://openbuildspartstore.com/v-slot-20x80-linear-rail/) - at _least_ 250mm length - will be cut into two
+- [OpenBuilds V-Slot® 20x80 Linear Rail](https://openbuildspartstore.com/v-slot-20x80-linear-rail/) - at _least_ 250mm length, this will be cut into two lengths
 - Corner brackets - at _least_ 6 - [Angle Corner Connector](https://openbuildspartstore.com/black-angle-corner-connector/) (Needs tested: may be able to only use 4 total for cost reduction)
   - To save money, *at most two of them* may be able to be replaced with these [cast version](https://openbuildspartstore.com/cast-corner-bracket/) *or* [these hidden ones](https://openbuildspartstore.com/inside-hidden-corner-bracket/)
 - 1 x [Tee Nuts - M5 (10 Pack)](https://openbuildspartstore.com/tee-nuts-m5-10-pack/) - only two are needed, but they're sold in 10-packs
@@ -20,8 +20,8 @@ This is the parts list we used to build our proof of concept, and unless otherwi
 - *Optional* 2 x [Handles](https://openbuildspartstore.com/v-slot-door-handle/) - comes with the nusts and screws needed
 - *Optional* Some thin (roughly 1/8" or 3mm) foam or cloth to protect the BVM from the sharp edges
 - *Optional* Some tape or cloth to hold the bag in place and up from getting pinched in machinery
-- 1 x Limit switch - [Option 1](https://openbuildspartstore.com/xtension-limit-switch-kit/), [Option 2](https://openbuildspartstore.com/micro-limit-switch-kit/), [Option 3 -  requires finding a means of attaching it](https://openbuildspartstore.com/micro-limit-switch/)
-- **Tubing**
+- 1 x Limit switch - [Option 1](https://openbuildspartstore.com/xtension-limit-switch-kit/), [Option 2](https://openbuildspartstore.com/micro-limit-switch-kit/), [Option 3](https://openbuildspartstore.com/micro-limit-switch/) - requires finding a means of attaching it
+- **Tubing** - depending on what sensor you choose, you'll need to be able to place the sensor in the same pressure system as the "patient" (a test lung, in this case) - this may vary wildly
 
 ## Electrical
 
@@ -34,7 +34,9 @@ This is the parts list we used to build our proof of concept, and unless otherwi
   - Option 2: Arduino Due - [Arduino Store](https://store.arduino.cc/usa/due) - [SparkFun](https://www.sparkfun.com/products/11589)
     - Most of the stepper drivers will require 5V signals, so you'll need a voltage level shifter like [this one](https://www.adafruit.com/product/757) (more convenient) or [this one](https://www.adafruit.com/product/1787) (less convenient). In either case, you'll need basic soldering skillas and equipment in order to use them.
     - The Due can only handle power up to 12V before it starts to get uncomfortably hot. If you go with a 24V power supply you'll need to find some other means of safely powering the Due such as a separate power supply.
-- Sensor **OPTIONS**
+- Sensor options:
+  - Tested with the Honeywell TrusAbility SSC part [SSCMRND015PGSA3](https://www.digikey.com/product-detail/en/honeywell-sensing-and-productivity-solutions/SSCMRND015PGSA3/480-5405-ND/2863940)
+  - Also possible: [Bosch BPM280](https://www.digikey.com/en/datasheets/bosch-sensortec/bosch-sensortec-bst-bmp280-ds001-19) ([here on an Adafruit carrier board](https://www.digikey.com/product-detail/en/adafruit-industries-llc/2651/1528-1358-ND/5604371))
 
 ## Testing
 
