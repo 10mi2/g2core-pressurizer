@@ -32,7 +32,7 @@ This is the parts list we used to build our proof of concept, and unless otherwi
 - Controller board
   - Option 1: g2core gQuintic (currently prerelease) or g2core v9k (OEM edition) - as the gQuintic is not yet released and the v9k is only sold to OEM we recommend going with option two for now
   - Option 2: Arduino Due - [Arduino Store](https://store.arduino.cc/usa/due) - [SparkFun](https://www.sparkfun.com/products/11589)
-    - Most of the stepper drivers will require 5V signals, so you'll need a voltage level shifter like [this one](https://www.adafruit.com/product/757) (more convenient) or [this one](https://www.adafruit.com/product/1787) (less convenient). In either case, you'll need basic soldering skillas and equipment in order to use them.
+    - Most of the stepper drivers will require 5V signals, so you'll need a voltage level shifter like [this one](https://www.adafruit.com/product/757) (more convenient) or [this one](https://www.adafruit.com/product/1787) (less convenient). In either case, you'll need basic soldering skills and equipment in order to use them.
     - The Due can only handle power up to 12V before it starts to get uncomfortably hot. If you go with a 24V power supply you'll need to find some other means of safely powering the Due such as a separate power supply.
 - Sensor options:
   - Tested with the Honeywell TrusAbility SSC part [SSCMRND015PGSA3](https://www.digikey.com/product-detail/en/honeywell-sensing-and-productivity-solutions/SSCMRND015PGSA3/480-5405-ND/2863940)
