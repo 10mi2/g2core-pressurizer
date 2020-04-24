@@ -5,7 +5,7 @@ A prototype emergency ventilator project based on [g2core](https://github.com/sy
 
 # What is this?
 
-See the blog posts [Designing an Intelligent IoT Ventilator From Home, Pt. 1](https://tenmilesquare.com/designing-an-intelligent-iot-ventilator-from-home-pt-1/) for an introduction and **Designing an Intelligent IoT Ventilator From Home, Pt. 2** for more detailed theory of operation.
+See the blog posts [Designing an Intelligent IoT Ventilator From Home, Pt. 1](https://tenmilesquare.com/designing-an-intelligent-iot-ventilator-from-home-pt-1/) for an introduction and [Designing an Intelligent IoT Ventilator From Home, Pt. 2](https://tenmilesquare.com/designing-an-intelligent-iot-ventilator-from-home-pt-2/) for more detailed theory of operation.
   
 # State of the project
 
