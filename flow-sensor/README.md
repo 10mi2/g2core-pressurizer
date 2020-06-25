@@ -8,7 +8,7 @@ This project [described in this blog post](https://tenmilesquare.com/designing-a
 
 | Version | Links |
 | ----: | --- |
-| v32.2 | [STL](./flow-sensor-v32.2.stl) - Fusion360 (soon) |
+| v32.2 | [STL](./flow-sensor-v32.2.stl) - [Fusion360](https://a360.co/2NsMhkD) |
 
 # Instructions
 
