@@ -25,7 +25,9 @@ Tested by printing with PETG, but PLA should work as well. Print oriented on it'
 
 # Python Monitor Usage
 
-- Clone or download this repo to a Raspberry Pi (or any linux-like machine supported by the Sparkfun Qwiic library)
+The python monitor needs cleaned up and made more user-friendly, but in the interest of getting stuff out there, I'm posting it now as-is.
+
+- Clone or download this repo to a Raspberry Pi (or any machine supported by the [Sparkfun Qwiic Python library](https://github.com/sparkfun/qwiic_py#supported-platforms))
 - Make sure you have `python3` and `pip3` installed
 - In a terminal (one time, for installation)
   ```bash
