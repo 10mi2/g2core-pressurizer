@@ -6,7 +6,7 @@ A prototype emergency ventilator project based on [g2core](https://github.com/sy
 
 # Flow sensor
 
-[![Flow sensor animation](flow-sensor/v32.2-Animation.gif)](flow-sensor)
+[![Flow sensor animation](flow-sensor/images/v32.2-Animation.gif)](flow-sensor)
 
 As a subproject, a 3D-printable and home-manufacturable flow sensor that can be used for any ventilator or stand-alone can be found in the [flow-sensor](flow-sensor) subdirectory.
 
