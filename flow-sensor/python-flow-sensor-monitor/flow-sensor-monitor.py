@@ -55,7 +55,8 @@ FLOW_PRESSURE_SENSOR_INFO = {
     "min_value": -1.0,    # -1psi
     "max_value": 1.0,     # 1psi
     "units": PressureUnits.PSI,
-    "k": 0.08979,   # K factor for flow
+    # "k": 0.0516,   # K factor for flow
+    "k": 0.05291351624874463,   # K factor for flow
     "zero": -0.000951
 }
 
