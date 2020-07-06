@@ -1,8 +1,7 @@
 import qwiic_i2c
 from smbus2 import SMBus, i2c_msg
-# _i2c_msg = i2c_msg
 
-from struct import Struct
+import math
 
 from PressureSensors.PressureUnits import PressureUnits
 

@@ -2,8 +2,8 @@
 
 import json
 import time
-import math
 import socket
+from struct import Struct
 
 from PressureSensors.HoneywellTruStabilitySensor import HoneywellTruStabilitySensor, PressureUnits
 
