@@ -7,8 +7,10 @@ This project [described in this blog post](https://tenmilesquare.com/designing-a
 # Downloads
 
 | Version | Links |
-| ----: | --- |
+| ---- | --- |
 | v32.2 | [STL](./flow-sensor-v32.2.stl) - [Fusion360](https://a360.co/2NsMhkD) |
+| v32.2 - flow ports only | [STL](./flow-sensor-v32.2-no-pressure-port.stl) - [Fusion360](https://a360.co/2C7vkd5) |
+| pressure adapter only (**not** a flow sensor) | [STL](./pressure-port-adapter.stl) - [Fusion360](https://a360.co/2Az5AWq) |
 
 # Instructions
 
@@ -43,6 +45,17 @@ The python monitor needs cleaned up and made more user-friendly, but in the inte
   ./flow-sensor-monitor.py > test-output.csv
   ```
 - When you're done, hit `Ctrl-C` (maybe twice) to make it stop
+
+
+# Calibration Jupyter
+
+The file [`flow-sensor/calibration.ipynb`](./flow-sensor/calibration.ipynb) can be opened with a [local Jupyter server](https://jupyter.org) (or [VSCode with the Python extension installed](https://code.visualstudio.com/docs/python/jupyter-support)).
+
+Notes:
+- Record a series of tests with the same filename except for a number. For example `cal-v32.2-2020-06-29-001.csv`, `cal-v32.2-2020-06-29-002.csv`, etc.
+- Set `start_k` is the K value used in `flow-sensor-monitor.py` when recording the tests.
+- Run the full notebook, and along with some nice charts showing your data, you'll find a new K value to use in the last (bottom) cell.
+- Note that it'll clip the first part of each file until the flow reaches > +-10slm, and then keep only 4 seconds from there.
 
 # On the way
 
